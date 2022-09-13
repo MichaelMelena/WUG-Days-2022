@@ -9,7 +9,7 @@ Všechny ukázky zmíněné v prezentaci jsou dostupné na GitHub v repositář�
 ### 1. Blazor Hybrid šablona
 Ukázka co Blazor Hybrid šablona obsahuje a jak jsou do sebe jednotlivé části zapojené.
 
-Tuto ukázku si můžete snadnot reprodukovat zavoláním příkazu:
+Tuto ukázku si můžete snadno reprodukovat zavoláním příkazu:
 
 `dotnet new maui-blazor -n BlazoHybridTemplate`
 
