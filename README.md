@@ -29,3 +29,16 @@ Ukázka jak může část aplikace může používat Blazor Hybrid zatímco zbyt
 ### 5. Vývoj pro Web + Native
 Jak současně vyvíjet aplikaci pro WEB a Nativní platformy. Struktura a
 [rozložení projektů pro nativní platofrmy a Web](https://github.com/MichaelMelena/Blazor-Hybrid-Platform-Specific-Implementation-WUG-Days)
+
+
+## Demo aplikace
+https://github.com/microsoft/dotnet-podcasts
+
+## Zdroje
+* [HAVIT Blazor Free Bootstrap 5 components for Blazor](https://havit.blazor.eu/)
+* [ASP.NET Core Blazor Hybrid](https://docs.microsoft.com/en-gb/aspnet/core/blazor/hybrid/?view=aspnetcore-6.0)
+* [WebView2 - Microsoft Edge Developer](https://developer.microsoft.com/en-us/microsoft-edge/webview2/)
+* [Introduction to Microsoft Edge WebView2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/)
+* [Accessing device sensors in MAUI Blazor Hybrid](https://docs.microsoft.com/en-us/dotnet/maui/platform-integration/device/battery?tabs=android)
+* [Devblog Introduction to MAUI - One codebase for many platforms](https://devblogs.microsoft.com/dotnet/introducing-dotnet-maui-one-codebase-many-platforms/)
+* [.NET Build talking about MAUI a Blazor Hybrid release](https://mybuild.microsoft.com/en-US/sessions/599c82b6-0c5a-4add-9961-48b85d9ffde0?source=sessions)
