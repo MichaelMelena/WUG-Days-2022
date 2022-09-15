@@ -12,23 +12,23 @@ Tuto ukázku si můžete snadno reprodukovat zavoláním příkazu:
 
 `dotnet new maui-blazor -n BlazoHybridTemplate`
 
-Pokud se vám nechce stahovat Visual Studio Preview tak se můžete na šablonu podívat v repositáři [MAUI Blazor Hybrid Template](https://github.com/MichaelMelena/WUG-BlazorHybrid-Template).
+Pokud se vám nechce stahovat Visual Studio Preview tak se můžete na šablonu podívat v repositáři [MAUI Blazor Hybrid Template](https://github.com/MichaelMelena/WUG-Days-2022/tree/main/Demos/WUG.BlazorHybridTemplate).
 
 ### 2. Havit.Blazor v MAUI
 Použití existujících
 [Blazor knihoven v MAUI](https://github.com/MichaelMelena/MAUI-Havit-Blazor-demo-WUG-days-2022)
-a to konkrétně [Havit.Blazor](https://github.com/havit/Havit.Blazor). Pro více informací o knihvně navštivte [Havit.Blazor documentation](https://havit.blazor.eu/).
+a to konkrétně [Havit.Blazor](https://github.com/MichaelMelena/WUG-Days-2022/tree/main/Demos/Havit.Blazor.MAUI.Demo). Pro více informací o knihvně navštivte [Havit.Blazor documentation](https://havit.blazor.eu/).
 
 ### 3. Přístup k nativním funkcím
-Jak v Blazor Hybrid přístupovat k nativním platformním funkcím platform. [Přístup k seonzorům zařízení](https://github.com/MichaelMelena/Blazor-Hybrid-Sensors-Demo-WUG)
+Jak v Blazor Hybrid přístupovat k nativním platformním funkcím platform. [Přístup k seonzorům zařízení](https://github.com/MichaelMelena/WUG-Days-2022/tree/main/Demos/WUG.MAUI.Blazor.Sensor.Demo)
 
 ### 4. Blazor Hybrid a Native MAUI
 Ukázka jak může část aplikace může používat Blazor Hybrid zatímco zbytek aplikace používá MAUI komponenty viz ukázka
-[Kombinace Blazor Hybrid a MAUI komponent](https://github.com/MichaelMelena/Blazor-Hybrid-SplitView-Demo-WUG)
+[Kombinace Blazor Hybrid a MAUI komponent](https://github.com/MichaelMelena/WUG-Days-2022/tree/main/Demos/WUG.MAUI.Blazor.SplitView.Demo)
 
 ### 5. Vývoj pro Web + Native
 Jak současně vyvíjet aplikaci pro WEB a Nativní platformy. Struktura a
-[rozložení projektů pro nativní platofrmy a Web](https://github.com/MichaelMelena/Blazor-Hybrid-Platform-Specific-Implementation-WUG-Days)
+[rozložení projektů pro nativní platofrmy a Web](https://github.com/MichaelMelena/WUG-Days-2022/tree/main/Demos/WUG.MAUI.WebAndNative)
 
 
 ## Demo aplikace
