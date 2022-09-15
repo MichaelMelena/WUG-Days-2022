@@ -1,0 +1,49 @@
+﻿@page "/DemoForm"
+@using System.ComponentModel.DataAnnotations
+
+<HxCard ImageAlt="Grey area"
+        ImageSrc="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+        ImageHeight="180"
+        style="width: 18rem;">
+    <BodyTemplate>
+        <HxCardTitle>Card title</HxCardTitle>
+        <HxCardText>Some quick example text to build on the card title and make up the bulk of the card's content.</HxCardText>
+        <HxButton Color="ThemeColor.Primary">Go somewhere</HxButton>
+    </BodyTemplate>
+</HxCard>
+<hr />
+
+<EditForm Model="model">
+    <DataAnnotationsValidator />
+
+    <HxSelect Label="Band member" TItem="Person" TValue="string" Data="@people" @bind-Value="@model.SelectedPersonInitials" TextSelector="@(p => p.Name)" ValueSelector="@(p => p.Initials)" Nullable="true" NullText="-select name-" NullDataText="Loading band members..." />
+    <HxSubmit Text="Submit" Color="ThemeColor.Primary" />
+</EditForm>
+
+<p>Selected initials: @model.SelectedPersonInitials</p>
+
+@code {
+    private FormModel model = new FormModel();
+    private List<Person> people;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(1000);
+
+        people = new List<Person>
+    {
+            new Person("Starr Ringo", "RS"),
+            new Person("Lennon John", "JL"),
+            new Person("McCartney Paul", "PMC"),
+            new Person("Harrison George", "GH")
+        };
+    }
+
+    internal class FormModel
+    {
+        [Required(ErrorMessage = "Choose a band member.")]
+        public string SelectedPersonInitials { get; set; }
+    }
+
+    record Person(string Name, string Initials);
+}

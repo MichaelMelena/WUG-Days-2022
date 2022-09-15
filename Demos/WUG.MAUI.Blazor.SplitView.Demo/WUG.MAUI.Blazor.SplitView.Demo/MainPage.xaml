@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WUG.MAUI.Blazor.SplitView.Demo"
+x:Class="WUG.MAUI.Blazor.SplitView.Demo.MainPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <VerticalStackLayout HorizontalOptions="Fill"  Spacing="5" BackgroundColor="White">
+        <Label FontSize="24" TextColor="Black"  Text="MAUI"/>
+        <Button Text="Native button" HorizontalOptions="Center"/>
+        <Image Source="dotnet_bot.png" HeightRequest="50"/>
+            <Label FontSize="24" TextColor="Black" Margin="0,20,0,0">Blazor WebView</Label>
+
+        <BlazorWebView HostPage="wwwroot/index.html" HeightRequest="400">
+            <BlazorWebView.RootComponents>
+                <RootComponent Selector="#app" ComponentType="{x:Type local:Main}" />
+            </BlazorWebView.RootComponents>
+        </BlazorWebView>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿@page "/sensors"
+
+@using Microsoft.Maui.Devices
+
+<h2>Sensors</h2>
+<h3>Battery</h3>
+<div>
+    <b>Batery:</b> @Battery.ChargeLevel.ToString("P")
+</div>
+<div>
+    <b>Power source:</b> @Enum.GetName(typeof(BatteryPowerSource), Battery.PowerSource)
+</div>
+
